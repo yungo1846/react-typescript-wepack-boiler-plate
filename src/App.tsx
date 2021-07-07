@@ -2,7 +2,7 @@ interface titleProps {
   title: String;
 }
 
-const Title = ({ title }: any) => {
+const Title = ({ title }: titleProps) => {
   return <h1>{title} from Title component</h1>;
 };
 
